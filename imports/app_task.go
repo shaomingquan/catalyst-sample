@@ -16,19 +16,19 @@ func Start_task(app *core.App) {
 
 	app.Router(
 		"/task",
-		task.MethodOfWorld,
-		task.PrefixOfWorld,
+		task.MethodOfHello,
+		task.PrefixOfHello,
 
-		task.HandlerOfWorld,
+		task.HandlerOfHello,
 		func(ctx *gin.Context) { ctx.Next() },
 	)
 
 	app.Router(
 		"/task",
-		task.MethodOfHello,
-		task.PrefixOfHello,
+		task.MethodOfWorld,
+		task.PrefixOfWorld,
 
-		task.HandlerOfHello,
+		task.HandlerOfWorld,
 		func(ctx *gin.Context) { ctx.Next() },
 	)
 
