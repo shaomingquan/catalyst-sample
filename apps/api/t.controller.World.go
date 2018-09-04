@@ -4,6 +4,9 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+var PrefixOfWorld = "/World"
+var MethodOfWorld = "GET"
+
 var DecoratorOfWorld = []string{
 	"middwares@Demo#root-api-world-decorator", // pkg@method#param1,param2
 }

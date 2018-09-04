@@ -4,7 +4,10 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// http://localhost:7777/api/article/detail?version=1.2&article_id=abcde
+// http://localhost:7777/api/article/Detail?version=1.2&article_id=abcde
+
+var PrefixOfGetDetail = "/Detail"
+var MethodOfGetDetail = "GET"
 
 type ParamsOfGetDetail struct {
 	ArticleId string  `validate:"nonzero"`

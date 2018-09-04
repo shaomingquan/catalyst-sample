@@ -1,0 +1,1 @@
+{"appName":"apps","appid":"_","decorators":{},"hasvalidator":false,"midwares":[{"method":"Demo","params":"`root`","pkg":"middwares","pkgid":"middwares"}],"params":{},"pkgDir":"/apps","pkgs":[{"pkg":"middwares","pkgid":"middwares"}],"prefix":"/","rootDir":"github.com/shaomingquan/webcore-sample","routers":["Root"],"routersWithValidator":[]}

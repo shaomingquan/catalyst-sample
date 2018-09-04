@@ -1,0 +1,1 @@
+{"appName":"task","appid":"_task","decorators":{},"hasvalidator":false,"midwares":[{"method":"Demo","params":"`root-task`","pkg":"middwares","pkgid":"middwares"}],"params":{},"pkgDir":"/apps/task","pkgs":[{"pkg":"middwares","pkgid":"middwares"}],"prefix":"/task","rootDir":"github.com/shaomingquan/webcore-sample","routers":["Hello","World"],"routersWithValidator":[]}
