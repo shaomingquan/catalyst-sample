@@ -1,1 +1,1 @@
-# webcore-sample
+# catalyst-sample

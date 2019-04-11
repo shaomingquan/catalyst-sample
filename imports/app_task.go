@@ -1,11 +1,11 @@
 package imports
 
 import "github.com/gin-gonic/gin"
-import core "github.com/shaomingquan/webcore/core"
+import core "github.com/shaomingquan/catalyst/core"
 
-import "github.com/shaomingquan/webcore-sample/apps/task"
+import "github.com/shaomingquan/catalyst-sample/apps/task"
 
-import middwares "github.com/shaomingquan/webcore-sample/middwares"
+import middwares "github.com/shaomingquan/catalyst-sample/middwares"
 
 func Start_task(app *core.App) {
 
